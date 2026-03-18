@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.sqlite3
+*.log
+
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Django
+*.pot
+*.mo
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+media/
+logs/
+generated_docs/
+
+# Static files
+staticfiles/
+static_collected/
+*.egg-info/
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests / temporary
+*.bak
+*.tmp

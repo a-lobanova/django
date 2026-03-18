@@ -1,0 +1,13 @@
+{% if error %}
+<p style="color: red; font-weight: bold;">{{ error }}</p>
+{% endif %}
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Загрузить и сгенерировать отчет</button>
+</form>
+
+{% if download_url %}
+<p>Скачать отчет: <a href="{{ download_url }}">Отчет.docx</a></p>
+{% endif %}
