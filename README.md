@@ -14,7 +14,7 @@
 
 git clone https://github.com/a-lobanova/django
 
-cd project
+cd django
 
 pip install -r requirements.txt
 
