@@ -19,3 +19,7 @@ cd project
 pip install -r requirements.txt
 
 python manage.py runserver
+
+## Запуск Тестов 
+
+python manage.py test 
